@@ -1214,6 +1214,17 @@
       .food-grid { grid-template-columns: 1fr; }
       #food-map-container { height: 460px; }
     }
+    .amap-nav-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 14px;
+      background: linear-gradient(135deg,#1677ff,#0958d9);
+      color: #fff !important;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -1286,7 +1297,7 @@
 
       <section class="info-panel">
         <h2 class="section-title">酒店推荐</h2>
-        <ul class="notes-list"><li>周二深夜、周六深夜均住长水机场附近(81/105元起)，带免费接送机，下单后提前电话约接机</li><li>价格/开放状态/车次以平台实时信息为准，建议出行前再核一次</li><li>周五心邸咖啡日出需5:40从双廊出发</li><li>周六21:10最晚班高铁，23:02到昆明，周日早班机请住长水机场附近</li></ul>
+        <ul class="notes-list"><li>大理全程租车自驾、按「不走高速」走国道环海路，车程比高速略长，沿途风景更好；每个行程点都有「高德导航」按钮，手机点击直接唤起高德</li><li>双廊酒店均含双早+免费停车，距古镇0.2–0.4km，步行即到</li><li>周二深夜、周六深夜均住长水机场附近(81/105元起)，带免费接送机，下单后提前电话约接机</li><li>价格/开放状态/车次以平台实时信息为准，建议出行前再核一次</li><li>周五心邸咖啡日出需5:40从双廊出发</li><li>周六21:10最晚班高铁，23:02到昆明，周日早班机请住长水机场附近</li></ul>
         <div class="hotel-grid">
     <article class="hotel-card">
       <h3 class="hotel-name">City嘉湾·澜屿酒店(昆明长水机场店)｜周二10/13深夜</h3>
@@ -1315,48 +1326,48 @@
     
 
     <article class="hotel-card">
-      <h3 class="hotel-name">大理懒人部落·一线亲水海景美墅(双廊玉几岛店)</h3>
-      <p class="hotel-address">双廊玉几岛</p>
-      <p class="hotel-summary">一线亲水，2025年装修，性价比高。</p>
+      <h3 class="hotel-name">洱边海景度假美宿(双廊南诏风情岛店)</h3>
+      <p class="hotel-address">距双廊古镇约0.4km</p>
+      <p class="hotel-summary">含双份早餐+免费停车+摆渡车，露台/大窗真海景，45㎡，躺床看洱海。首选。</p>
+      <div class="hotel-info">
+        <span class="hotel-rating">美团真实评分4.9</span>
+        <span class="hotel-price">￥139起（露台海景大床2晚￥2XX）</span>
+      </div>
+      <div class="hotel-features"><span class="feature-tag">含早餐</span><span class="feature-tag">真海景</span><span class="feature-tag">200内</span><span class="feature-tag">免费停车</span></div>
+      <div class="actions"><button class="hotel-detail-btn" onclick="return openWithFallback('imeituan://www.meituan.com', 'http://dpurl.cn/U7P2uKGz')">打开美团</button><a class="hotel-detail-btn secondary" href="http://dpurl.cn/U7P2uKGz" target="_blank" rel="noopener">查看网页</a></div>
+    </article>
+    
+
+    <article class="hotel-card">
+      <h3 class="hotel-name">瞰海山居美宿(双廊古镇店)</h3>
+      <p class="hotel-address">距双廊古镇约0.2km</p>
+      <p class="hotel-summary">含双份早点+免费停车，阁楼海景露台房，情侣友好。</p>
+      <div class="hotel-info">
+        <span class="hotel-rating">美团真实评分4.9</span>
+        <span class="hotel-price">￥184起（海景露台大床2晚￥3XX）</span>
+      </div>
+      <div class="hotel-features"><span class="feature-tag">含早餐</span><span class="feature-tag">阁楼海景</span><span class="feature-tag">250内</span><span class="feature-tag">免费停车</span></div>
+      <div class="actions"><button class="hotel-detail-btn" onclick="return openWithFallback('imeituan://www.meituan.com', 'http://dpurl.cn/OuCHhScz')">打开美团</button><a class="hotel-detail-btn secondary" href="http://dpurl.cn/OuCHhScz" target="_blank" rel="noopener">查看网页</a></div>
+    </article>
+    
+
+    <article class="hotel-card">
+      <h3 class="hotel-name">大理双廊玉几台海景客栈</h3>
+      <p class="hotel-address">距双廊古镇约0.3km</p>
+      <p class="hotel-summary">含双份早餐+免费停车，全屋智能，大玻璃窗近距离看海。</p>
       <div class="hotel-info">
         <span class="hotel-rating">美团真实评分4.8</span>
-        <span class="hotel-price">￥1XX起/晚</span>
+        <span class="hotel-price">￥1XX起</span>
       </div>
-      <div class="hotel-features"><span class="feature-tag">一线海景</span><span class="feature-tag">200内</span><span class="feature-tag">新装修</span></div>
-      <div class="actions"><button class="hotel-detail-btn" onclick="return openWithFallback('imeituan://www.meituan.com', 'http://dpurl.cn/cCwLVobz')">打开美团</button><a class="hotel-detail-btn secondary" href="http://dpurl.cn/cCwLVobz" target="_blank" rel="noopener">查看网页</a></div>
-    </article>
-    
-
-    <article class="hotel-card">
-      <h3 class="hotel-name">洱边海景度假美宿(双廊南诏风情岛店)</h3>
-      <p class="hotel-address">距双廊古镇0.4km</p>
-      <p class="hotel-summary">露台/林荫海景大床房均200内，45㎡，躺床看洱海，含免费停车+摆渡车。</p>
-      <div class="hotel-info">
-        <span class="hotel-rating">美团真实评分4.9</span>
-        <span class="hotel-price">￥139起/晚（露台海景大床2晚￥2XX）</span>
-      </div>
-      <div class="hotel-features"><span class="feature-tag">真海景</span><span class="feature-tag">200内</span><span class="feature-tag">免费停车</span></div>
-      <div class="actions"><button class="hotel-detail-btn" onclick="return openWithFallback('imeituan://www.meituan.com', 'http://dpurl.cn/OQD9xdLz')">打开美团</button><a class="hotel-detail-btn secondary" href="http://dpurl.cn/OQD9xdLz" target="_blank" rel="noopener">查看网页</a></div>
-    </article>
-    
-
-    <article class="hotel-card">
-      <h3 class="hotel-name">大理雲熙·海景美宿(双廊洱海店)</h3>
-      <p class="hotel-address">双廊洱海畔</p>
-      <p class="hotel-summary">180度海景大床，推窗见海，部分房型2晚￥2XX。</p>
-      <div class="hotel-info">
-        <span class="hotel-rating">美团真实评分4.9</span>
-        <span class="hotel-price">￥165起/晚</span>
-      </div>
-      <div class="hotel-features"><span class="feature-tag">180度海景</span><span class="feature-tag">250内</span><span class="feature-tag">评分4.9</span></div>
-      <div class="actions"><button class="hotel-detail-btn" onclick="return openWithFallback('imeituan://www.meituan.com', 'http://dpurl.cn/gFQA0K8z')">打开美团</button><a class="hotel-detail-btn secondary" href="http://dpurl.cn/gFQA0K8z" target="_blank" rel="noopener">查看网页</a></div>
+      <div class="hotel-features"><span class="feature-tag">含早餐</span><span class="feature-tag">海景</span><span class="feature-tag">250内</span><span class="feature-tag">免费停车</span></div>
+      <div class="actions"><button class="hotel-detail-btn" onclick="return openWithFallback('imeituan://www.meituan.com', 'http://dpurl.cn/lLxJH7Bz')">打开美团</button><a class="hotel-detail-btn secondary" href="http://dpurl.cn/lLxJH7Bz" target="_blank" rel="noopener">查看网页</a></div>
     </article>
     
 
     <article class="hotel-card">
       <h3 class="hotel-name">沙溪典庭客栈</h3>
       <p class="hotel-address">沙溪镇寺登街204号</p>
-      <p class="hotel-summary">寺登街上，古镇核心位置。</p>
+      <p class="hotel-summary">寺登街上，古镇核心位置；可问是否含早。</p>
       <div class="hotel-info">
         <span class="hotel-rating">美团评分暂无</span>
         <span class="hotel-price">以平台实时信息为准（周五1晚）</span>
@@ -1571,6 +1582,7 @@
                   <div class="transport-note">机场到海埂大坝约40km，打车/地铁机场线转公交。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=102.927778%2C25.095628&amp;name=%E6%98%86%E6%98%8E%E9%95%BF%E6%B0%B4%E6%9C%BA%E5%9C%BA&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1590,6 +1602,7 @@
                   <div class="transport-note">看滇池、西山，约2小时。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=102.650825%2C24.973588&amp;name=%E6%BB%87%E6%B1%A0%E6%B5%B7%E5%9F%82%E5%A4%A7%E5%9D%9D&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                 <div class="timeline-price">
@@ -1614,6 +1627,7 @@
                   <div class="transport-note">下午车次约2小时，二等座约145，实时购票。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=102.650825%2C24.973588&amp;name=%E6%98%86%E6%98%8E%E2%86%92%E5%A4%A7%E7%90%86%E9%AB%98%E9%93%81&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1633,6 +1647,7 @@
                   <div class="transport-note">大理站到双廊约50km，打车或提前约接站。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1660,6 +1675,7 @@
                   <div class="transport-note"></div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1679,6 +1695,7 @@
                   <div class="transport-note">步行可达，沿临海石阶。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E7%8E%89%E5%87%A0%E5%B2%9B%2F%E5%A4%AA%E9%98%B3%E5%AE%AB&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                 <div class="timeline-price">
@@ -1703,6 +1720,7 @@
                   <div class="transport-note">码头乘短程摆渡。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8D%97%E8%AF%8F%E9%A3%8E%E6%83%85%E5%B2%9B&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                 <div class="timeline-price">
@@ -1727,6 +1745,7 @@
                   <div class="transport-note"></div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E8%BE%B9%E5%92%96%E5%95%A1%E9%A6%86&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                 <div class="timeline-price">
@@ -1751,6 +1770,7 @@
                   <div class="transport-note"></div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1778,6 +1798,7 @@
                   <div class="transport-note">5:40自驾出发，环海到西岸，59km约1.2h。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1797,6 +1818,7 @@
                   <div class="transport-note">日出约7:10，廊道164号门。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.211011%2C25.66647&amp;name=%E5%BF%83%E9%82%B8%E5%92%96%E5%95%A1%28%E7%9C%8B%E6%97%A5%E5%87%BA%29&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                 <div class="timeline-price">
@@ -1821,6 +1843,7 @@
                   <div class="transport-note">心邸→沙溪138km约2.2h，山路为主，边走边停看风景。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.211011%2C25.66647&amp;name=%E6%B2%BF%E9%80%94%E6%B4%B1%E6%B5%B7%2F%E8%8B%8D%E5%B1%B1%E9%A3%8E%E6%99%AF&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1840,6 +1863,7 @@
                   <div class="transport-note"></div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E6%B2%99%E6%BA%AA%E5%8F%A4%E9%95%87&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                 <div class="timeline-price">
@@ -1864,6 +1888,7 @@
                   <div class="transport-note"></div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E6%B2%99%E6%BA%AA%E5%AE%A2%E6%A0%88&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1891,6 +1916,7 @@
                   <div class="transport-note"></div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E6%B2%99%E6%BA%AA%E5%AE%A2%E6%A0%88&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1910,6 +1936,7 @@
                   <div class="transport-note"></div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E5%AF%BA%E7%99%BB%E8%A1%97%2F%E5%8F%A4%E6%88%8F%E5%8F%B0%2F%E7%8E%89%E6%B4%A5%E6%A1%A5&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                 <div class="timeline-price">
@@ -1934,6 +1961,7 @@
                   <div class="transport-note">16:40出发，161km约1.9h，预留还车+进站。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E6%B2%99%E6%BA%AA%E2%86%92%E5%A4%A7%E7%90%86%E7%AB%99&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1953,6 +1981,7 @@
                   <div class="transport-note"></div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.250635%2C25.589569&amp;name=%E5%A4%A7%E7%90%86%E7%AB%99%E8%BF%98%E8%BD%A6%E8%BF%9B%E7%AB%99&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1972,6 +2001,7 @@
                   <div class="transport-note">最晚班直达，二等座145。</div>
                 </div>
                 
+                    <a class="amap-nav-btn" href="https://uri.amap.com/navigation?to=100.250635%2C25.589569&amp;name=21%3A10%E9%AB%98%E9%93%81%E2%86%92%E6%98%86%E6%98%8E23%3A02&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode" target="_blank" rel="noopener">🧭 高德导航（不走高速）</a>
                     
                     
                   </div>
@@ -1995,8 +2025,8 @@
   <div class="notification" id="notification"></div>
 
   <script>
-    const MAP_POINTS = [{"type": "景点", "name": "滇池海埂大坝", "lng": 102.650825, "lat": 24.973588, "address": "昆明西山区海埂路"}, {"type": "景点", "name": "双廊古镇", "lng": 100.195522, "lat": 25.906603, "address": "洱海东北岸双廊镇"}, {"type": "景点", "name": "南诏风情岛/玉几岛", "lng": 100.195522, "lat": 25.906603, "address": "双廊古镇内"}, {"type": "景点", "name": "心邸咖啡", "lng": 100.211011, "lat": 25.66647, "address": "洱海生态廊道164号门（洱海西岸）"}, {"type": "景点", "name": "沙溪古镇", "lng": 99.849625, "lat": 26.314816, "address": "剑川县沙溪镇寺登街"}, {"type": "酒店", "name": "City嘉湾·澜屿酒店(昆明长水机场店)｜周二10/13深夜", "lng": 102.927778, "lat": 25.095628, "address": "距长水机场约5km"}, {"type": "酒店", "name": "岚希酒店(昆明长水机场店)｜周六10/17深夜", "lng": 102.927778, "lat": 25.095628, "address": "距长水机场4.4km"}, {"type": "酒店", "name": "大理懒人部落·一线亲水海景美墅(双廊玉几岛店)", "lng": 100.195522, "lat": 25.906603, "address": "双廊玉几岛"}, {"type": "酒店", "name": "洱边海景度假美宿(双廊南诏风情岛店)", "lng": 100.195522, "lat": 25.906603, "address": "距双廊古镇0.4km"}, {"type": "酒店", "name": "大理雲熙·海景美宿(双廊洱海店)", "lng": 100.195522, "lat": 25.906603, "address": "双廊洱海畔"}, {"type": "酒店", "name": "沙溪典庭客栈", "lng": 99.850186, "lat": 26.315514, "address": "沙溪镇寺登街204号"}, {"type": "交通", "name": "昆明→大理高铁（周三下午）", "lng": 100.250635, "lat": 25.589569, "address": "昆明站/昆明南—大理站，约2小时，二等座约145"}, {"type": "交通", "name": "大理→昆明高铁 21:10（周六最晚班）", "lng": 100.250635, "lat": 25.589569, "address": "大理站21:10—昆明23:02，1时52分，二等座145"}, {"type": "交通", "name": "大理站", "lng": 100.250635, "lat": 25.589569, "address": "大理市"}, {"type": "交通", "name": "昆明长水国际机场", "lng": 102.927778, "lat": 25.095628, "address": "昆明官渡区长水村"}];
-    const ROUTES = [{"day": 1, "title": "周三｜昆明半天+下午高铁到双廊", "summary": "滇池海埂大坝 → 下午高铁昆明→大理 → 到双廊入住海景房。", "color": "#667eea", "points": [{"name": "昆明长水机场", "position": [102.927778, 25.095628], "day": 1, "transport": "taxi", "transport_detail": "机场到海埂大坝约40km，打车/地铁机场线转公交。", "transport_duration": "约1小时", "time": "中午", "type": "start"}, {"name": "滇池海埂大坝", "position": [102.650825, 24.973588], "day": 1, "transport": "taxi", "transport_detail": "看滇池、西山，约2小时。", "transport_duration": "约1小时", "time": "13:00", "stay_duration": "2小时", "description": "昆明半天首选。", "ticket_price": "免费", "type": "attraction"}, {"name": "昆明→大理高铁", "position": [102.650825, 24.973588], "day": 1, "transport": "train", "transport_detail": "下午车次约2小时，二等座约145，实时购票。", "transport_duration": "约2小时", "time": "16:00", "type": "transit"}, {"name": "双廊海景酒店", "position": [100.195522, 25.906603], "day": 1, "transport": "taxi", "transport_detail": "大理站到双廊约50km，打车或提前约接站。", "transport_duration": "约1小时", "time": "19:30", "type": "end"}]}, {"day": 2, "title": "周四｜双廊古镇慢玩一整天", "summary": "玉几岛、南诏风情岛、临海石阶、海边咖啡，不赶路。", "color": "#f59e0b", "points": [{"name": "双廊海景酒店", "position": [100.195522, 25.906603], "day": 2, "transport": "walk", "type": "start"}, {"name": "玉几岛/太阳宫", "position": [100.195522, 25.906603], "day": 2, "transport": "walk", "transport_detail": "步行可达，沿临海石阶。", "time": "09:30", "stay_duration": "2小时", "description": "杨丽萍太阳宫月亮宫建筑。", "ticket_price": "以平台实时信息为准", "type": "attraction"}, {"name": "南诏风情岛", "position": [100.195522, 25.906603], "day": 2, "transport": "ferry", "transport_detail": "码头乘短程摆渡。", "time": "14:00", "stay_duration": "2小时", "description": "洱海上小岛。", "ticket_price": "往返约50", "type": "attraction"}, {"name": "双廊海边咖啡馆", "position": [100.195522, 25.906603], "day": 2, "transport": "walk", "time": "17:00", "stay_duration": "1.5小时", "description": "看洱海日落发呆。", "ticket_price": "人均50", "type": "attraction"}, {"name": "双廊海景酒店", "position": [100.195522, 25.906603], "day": 2, "transport": "walk", "type": "end"}]}, {"day": 3, "title": "周五｜心邸咖啡日出→驱车沙溪", "summary": "5:40双廊出发→洱海西岸心邸咖啡看日出→沿途风景→下午到沙溪入住。", "color": "#10b981", "points": [{"name": "双廊海景酒店", "position": [100.195522, 25.906603], "day": 3, "transport": "taxi", "transport_detail": "5:40自驾出发，环海到西岸，59km约1.2h。", "transport_duration": "1.2小时", "time": "05:40", "type": "start"}, {"name": "心邸咖啡(看日出)", "position": [100.211011, 25.66647], "day": 3, "transport": "taxi", "transport_detail": "日出约7:10，廊道164号门。", "time": "07:00", "stay_duration": "1.5小时", "description": "网红海景咖啡看日出、早餐。", "ticket_price": "人均60", "type": "attraction"}, {"name": "沿途洱海/苍山风景", "position": [100.211011, 25.66647], "day": 3, "transport": "taxi", "transport_detail": "心邸→沙溪138km约2.2h，山路为主，边走边停看风景。", "transport_duration": "2.2小时", "time": "09:30", "type": "transit"}, {"name": "沙溪古镇", "position": [99.849625, 26.314816], "day": 3, "transport": "taxi", "time": "12:30", "stay_duration": "下午+傍晚", "description": "寺登街、古戏台、玉津桥慢逛。", "ticket_price": "免费进镇", "type": "attraction"}, {"name": "沙溪客栈", "position": [99.849625, 26.314816], "day": 3, "transport": "walk", "type": "end"}]}, {"day": 4, "title": "周六｜沙溪慢玩→还车→最晚班高铁", "summary": "上午继续逛沙溪，16:40出发→1.9h到大理站还车进站→21:10高铁，23:02到昆明住机场附近。", "color": "#667eea", "points": [{"name": "沙溪客栈", "position": [99.849625, 26.314816], "day": 4, "transport": "walk", "type": "start"}, {"name": "寺登街/古戏台/玉津桥", "position": [99.849625, 26.314816], "day": 4, "transport": "walk", "time": "09:00", "stay_duration": "大半天", "description": "茶马古道古集市，上午光线好人少。", "ticket_price": "免费", "type": "attraction"}, {"name": "沙溪→大理站", "position": [99.849625, 26.314816], "day": 4, "transport": "taxi", "transport_detail": "16:40出发，161km约1.9h，预留还车+进站。", "transport_duration": "1.9小时", "time": "16:40", "type": "transit"}, {"name": "大理站还车进站", "position": [100.250635, 25.589569], "day": 4, "transport": "walk", "time": "18:50", "description": "还租车、安检。", "type": "transit"}, {"name": "21:10高铁→昆明23:02", "position": [100.250635, 25.589569], "day": 4, "transport": "train", "transport_detail": "最晚班直达，二等座145。", "transport_duration": "1时52分", "time": "21:10", "type": "end"}]}];
+    const MAP_POINTS = [{"type": "景点", "name": "滇池海埂大坝", "lng": 102.650825, "lat": 24.973588, "address": "昆明西山区海埂路"}, {"type": "景点", "name": "双廊古镇", "lng": 100.195522, "lat": 25.906603, "address": "洱海东北岸双廊镇"}, {"type": "景点", "name": "南诏风情岛/玉几岛", "lng": 100.195522, "lat": 25.906603, "address": "双廊古镇内"}, {"type": "景点", "name": "心邸咖啡", "lng": 100.211011, "lat": 25.66647, "address": "洱海生态廊道164号门（洱海西岸）"}, {"type": "景点", "name": "沙溪古镇", "lng": 99.849625, "lat": 26.314816, "address": "剑川县沙溪镇寺登街"}, {"type": "酒店", "name": "City嘉湾·澜屿酒店(昆明长水机场店)｜周二10/13深夜", "lng": 102.927778, "lat": 25.095628, "address": "距长水机场约5km"}, {"type": "酒店", "name": "岚希酒店(昆明长水机场店)｜周六10/17深夜", "lng": 102.927778, "lat": 25.095628, "address": "距长水机场4.4km"}, {"type": "酒店", "name": "洱边海景度假美宿(双廊南诏风情岛店)", "lng": 100.195522, "lat": 25.906603, "address": "距双廊古镇约0.4km"}, {"type": "酒店", "name": "瞰海山居美宿(双廊古镇店)", "lng": 100.195522, "lat": 25.906603, "address": "距双廊古镇约0.2km"}, {"type": "酒店", "name": "大理双廊玉几台海景客栈", "lng": 100.195522, "lat": 25.906603, "address": "距双廊古镇约0.3km"}, {"type": "酒店", "name": "沙溪典庭客栈", "lng": 99.850186, "lat": 26.315514, "address": "沙溪镇寺登街204号"}, {"type": "交通", "name": "昆明→大理高铁（周三下午）", "lng": 100.250635, "lat": 25.589569, "address": "昆明站/昆明南—大理站，约2小时，二等座约145"}, {"type": "交通", "name": "大理→昆明高铁 21:10（周六最晚班）", "lng": 100.250635, "lat": 25.589569, "address": "大理站21:10—昆明23:02，1时52分，二等座145"}, {"type": "交通", "name": "大理站", "lng": 100.250635, "lat": 25.589569, "address": "大理市"}, {"type": "交通", "name": "昆明长水国际机场", "lng": 102.927778, "lat": 25.095628, "address": "昆明官渡区长水村"}];
+    const ROUTES = [{"day": 1, "title": "周三｜昆明半天+下午高铁到双廊", "summary": "滇池海埂大坝 → 下午高铁昆明→大理 → 到双廊入住海景房。", "color": "#667eea", "points": [{"name": "昆明长水机场", "position": [102.927778, 25.095628], "day": 1, "transport": "taxi", "transport_detail": "机场到海埂大坝约40km，打车/地铁机场线转公交。", "transport_duration": "约1小时", "time": "中午", "type": "start", "nav_url": "https://uri.amap.com/navigation?to=102.927778%2C25.095628&amp;name=%E6%98%86%E6%98%8E%E9%95%BF%E6%B0%B4%E6%9C%BA%E5%9C%BA&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "滇池海埂大坝", "position": [102.650825, 24.973588], "day": 1, "transport": "taxi", "transport_detail": "看滇池、西山，约2小时。", "transport_duration": "约1小时", "time": "13:00", "stay_duration": "2小时", "description": "昆明半天首选。", "ticket_price": "免费", "type": "attraction", "nav_url": "https://uri.amap.com/navigation?to=102.650825%2C24.973588&amp;name=%E6%BB%87%E6%B1%A0%E6%B5%B7%E5%9F%82%E5%A4%A7%E5%9D%9D&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "昆明→大理高铁", "position": [102.650825, 24.973588], "day": 1, "transport": "train", "transport_detail": "下午车次约2小时，二等座约145，实时购票。", "transport_duration": "约2小时", "time": "16:00", "type": "transit", "nav_url": "https://uri.amap.com/navigation?to=102.650825%2C24.973588&amp;name=%E6%98%86%E6%98%8E%E2%86%92%E5%A4%A7%E7%90%86%E9%AB%98%E9%93%81&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "双廊海景酒店", "position": [100.195522, 25.906603], "day": 1, "transport": "taxi", "transport_detail": "大理站到双廊约50km，打车或提前约接站。", "transport_duration": "约1小时", "time": "19:30", "type": "end", "nav_url": "https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}]}, {"day": 2, "title": "周四｜双廊古镇慢玩一整天", "summary": "玉几岛、南诏风情岛、临海石阶、海边咖啡，不赶路。", "color": "#f59e0b", "points": [{"name": "双廊海景酒店", "position": [100.195522, 25.906603], "day": 2, "transport": "walk", "type": "start", "nav_url": "https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "玉几岛/太阳宫", "position": [100.195522, 25.906603], "day": 2, "transport": "walk", "transport_detail": "步行可达，沿临海石阶。", "time": "09:30", "stay_duration": "2小时", "description": "杨丽萍太阳宫月亮宫建筑。", "ticket_price": "以平台实时信息为准", "type": "attraction", "nav_url": "https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E7%8E%89%E5%87%A0%E5%B2%9B%2F%E5%A4%AA%E9%98%B3%E5%AE%AB&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "南诏风情岛", "position": [100.195522, 25.906603], "day": 2, "transport": "ferry", "transport_detail": "码头乘短程摆渡。", "time": "14:00", "stay_duration": "2小时", "description": "洱海上小岛。", "ticket_price": "往返约50", "type": "attraction", "nav_url": "https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8D%97%E8%AF%8F%E9%A3%8E%E6%83%85%E5%B2%9B&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "双廊海边咖啡馆", "position": [100.195522, 25.906603], "day": 2, "transport": "walk", "time": "17:00", "stay_duration": "1.5小时", "description": "看洱海日落发呆。", "ticket_price": "人均50", "type": "attraction", "nav_url": "https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E8%BE%B9%E5%92%96%E5%95%A1%E9%A6%86&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "双廊海景酒店", "position": [100.195522, 25.906603], "day": 2, "transport": "walk", "type": "end", "nav_url": "https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}]}, {"day": 3, "title": "周五｜心邸咖啡日出→驱车沙溪", "summary": "5:40双廊出发→洱海西岸心邸咖啡看日出→沿途风景→下午到沙溪入住。", "color": "#10b981", "points": [{"name": "双廊海景酒店", "position": [100.195522, 25.906603], "day": 3, "transport": "taxi", "transport_detail": "5:40自驾出发，环海到西岸，59km约1.2h。", "transport_duration": "1.2小时", "time": "05:40", "type": "start", "nav_url": "https://uri.amap.com/navigation?to=100.195522%2C25.906603&amp;name=%E5%8F%8C%E5%BB%8A%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "心邸咖啡(看日出)", "position": [100.211011, 25.66647], "day": 3, "transport": "taxi", "transport_detail": "日出约7:10，廊道164号门。", "time": "07:00", "stay_duration": "1.5小时", "description": "网红海景咖啡看日出、早餐。", "ticket_price": "人均60", "type": "attraction", "nav_url": "https://uri.amap.com/navigation?to=100.211011%2C25.66647&amp;name=%E5%BF%83%E9%82%B8%E5%92%96%E5%95%A1%28%E7%9C%8B%E6%97%A5%E5%87%BA%29&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "沿途洱海/苍山风景", "position": [100.211011, 25.66647], "day": 3, "transport": "taxi", "transport_detail": "心邸→沙溪138km约2.2h，山路为主，边走边停看风景。", "transport_duration": "2.2小时", "time": "09:30", "type": "transit", "nav_url": "https://uri.amap.com/navigation?to=100.211011%2C25.66647&amp;name=%E6%B2%BF%E9%80%94%E6%B4%B1%E6%B5%B7%2F%E8%8B%8D%E5%B1%B1%E9%A3%8E%E6%99%AF&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "沙溪古镇", "position": [99.849625, 26.314816], "day": 3, "transport": "taxi", "time": "12:30", "stay_duration": "下午+傍晚", "description": "寺登街、古戏台、玉津桥慢逛。", "ticket_price": "免费进镇", "type": "attraction", "nav_url": "https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E6%B2%99%E6%BA%AA%E5%8F%A4%E9%95%87&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "沙溪客栈", "position": [99.849625, 26.314816], "day": 3, "transport": "walk", "type": "end", "nav_url": "https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E6%B2%99%E6%BA%AA%E5%AE%A2%E6%A0%88&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}]}, {"day": 4, "title": "周六｜沙溪慢玩→还车→最晚班高铁", "summary": "上午继续逛沙溪，16:40出发→1.9h到大理站还车进站→21:10高铁，23:02到昆明住机场附近。", "color": "#667eea", "points": [{"name": "沙溪客栈", "position": [99.849625, 26.314816], "day": 4, "transport": "walk", "type": "start", "nav_url": "https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E6%B2%99%E6%BA%AA%E5%AE%A2%E6%A0%88&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "寺登街/古戏台/玉津桥", "position": [99.849625, 26.314816], "day": 4, "transport": "walk", "time": "09:00", "stay_duration": "大半天", "description": "茶马古道古集市，上午光线好人少。", "ticket_price": "免费", "type": "attraction", "nav_url": "https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E5%AF%BA%E7%99%BB%E8%A1%97%2F%E5%8F%A4%E6%88%8F%E5%8F%B0%2F%E7%8E%89%E6%B4%A5%E6%A1%A5&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "沙溪→大理站", "position": [99.849625, 26.314816], "day": 4, "transport": "taxi", "transport_detail": "16:40出发，161km约1.9h，预留还车+进站。", "transport_duration": "1.9小时", "time": "16:40", "type": "transit", "nav_url": "https://uri.amap.com/navigation?to=99.849625%2C26.314816&amp;name=%E6%B2%99%E6%BA%AA%E2%86%92%E5%A4%A7%E7%90%86%E7%AB%99&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "大理站还车进站", "position": [100.250635, 25.589569], "day": 4, "transport": "walk", "time": "18:50", "description": "还租车、安检。", "type": "transit", "nav_url": "https://uri.amap.com/navigation?to=100.250635%2C25.589569&amp;name=%E5%A4%A7%E7%90%86%E7%AB%99%E8%BF%98%E8%BD%A6%E8%BF%9B%E7%AB%99&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}, {"name": "21:10高铁→昆明23:02", "position": [100.250635, 25.589569], "day": 4, "transport": "train", "transport_detail": "最晚班直达，二等座145。", "transport_duration": "1时52分", "time": "21:10", "type": "end", "nav_url": "https://uri.amap.com/navigation?to=100.250635%2C25.589569&amp;name=21%3A10%E9%AB%98%E9%93%81%E2%86%92%E6%98%86%E6%98%8E23%3A02&amp;mode=car&amp;style=1&amp;callnative=1&amp;src=travelplan&amp;coordinate=gaode"}]}];
     const FOODS = [{"name": "喜洲粑粑/烤乳扇/白族酸辣鱼", "city": "大理", "address": "双廊及环海沿线", "lng": "", "lat": "", "rating": "", "avg_price": "", "review_count": "", "recommended_dishes": ["喜洲粑粑", "烤乳扇", "银鱼煎蛋", "白族酸辣鱼"], "category": "snack", "source_url": "", "shop_id": ""}, {"name": "沙溪白族土八碗/野生菌火锅", "city": "大理", "address": "沙溪寺登街周边", "lng": 99.849625, "lat": 26.314816, "rating": "", "avg_price": "", "review_count": "", "recommended_dheets": [], "recommended_dishes": ["野生菌火锅", "白族土八碗", "鸡豆凉粉"], "category": "restaurant", "source_url": "", "shop_id": ""}];
     const AMAP_KEY = "373659b206cf338cf4f05b89b5147988";
     const AMAP_SECURITY_JS_CODE = "38f94ceb2b61bfc7c4f7ce6920b74718";
